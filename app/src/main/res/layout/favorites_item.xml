@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    android:padding="24dp"
+    app:cardBackgroundColor="#fccb4b">
+
+    <TextView
+        android:id="@+id/tvFavoriteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_surface"
+        android:textSize="18sp"
+        tools:text="Some favorite recipe name" />
+
+</com.google.android.material.card.MaterialCardView>
